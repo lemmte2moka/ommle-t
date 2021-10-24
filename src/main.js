@@ -4,6 +4,12 @@ import router from "./router";
 
 Vue.config.productionTip = false;
 
+//ress
+import "ress";
+
+//scss
+require("@/assets/scss/common.scss");
+
 new Vue({
   router,
   render: (h) => h(App),
